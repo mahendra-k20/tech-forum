@@ -1,0 +1,54 @@
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# IDE & editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific
+ehthumbs.db
+Icon?
+__MACOSX/
+
+# Node
+node_modules/
+
+# Composer (not using now, but safe to future-proof)
+vendor/
+
+# Cache
+cache/
+*.cache
+*.tmp
+
+# Uploads (if you have user uploads you don’t want in Git)
+uploads/
+
+# Environment (not using .env now, but safe to ignore if added in future)
+.env
+.env.*
+
+# PHPStorm
+*.iml
+*.ipr
+*.iws
+
+# Backup files
+*.bak
+*.swp
+*.tmp
+
+# SQL dump backup files (only if you do not want to track exported backups repeatedly)
+*.sql~
+
+# Other potential clutter
+*.zip
+*.tar.gz
+*.rar
